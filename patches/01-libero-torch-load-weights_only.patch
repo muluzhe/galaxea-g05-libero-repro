@@ -1,0 +1,5 @@
+--- a/libero/libero/benchmark/__init__.py
++++ b/libero/libero/benchmark/__init__.py
+@@ -161,7 +161,7 @@
+-        init_states = torch.load(init_states_path)
++        init_states = torch.load(init_states_path, weights_only=False)
