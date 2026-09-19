@@ -22,8 +22,10 @@
 
 | 项 | 配置 |
 |---|---|
+| 云平台 | 模力方舟 云 GPU 服务器（RTX 4090 24G 实例） |
 | GPU | NVIDIA RTX 4090 24GB（评估峰值约 16GB） |
-| 系统 / CPU / RAM | Ubuntu 24.04.1 / 128 核 / 20GB |
+| 系统 / CPU / RAM | Ubuntu 24.04.1 / Intel Xeon Platinum 8358P（128 vCPU）/ 20GB |
+| 数据盘 | 80GB |
 | Python / Torch | 3.10.16（uv + 官方 uv.lock）/ 2.7.1+cu128 |
 | 注意力内核 | flash-attn-4 4.0.0b15、flash-linear-attention 0.5.0 |
 | 仿真 | LIBERO：robosuite 1.4.0 + MuJoCo 3.3.2，Mesa EGL 离屏渲染（256×256） |
